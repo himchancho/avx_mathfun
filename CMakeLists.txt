@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.5)
 project(avx_mathfun)
-find_package(GTest REQUIRED)
+find_package(gtest REQUIRED)
 
 include_directories(${GTEST_INCLUDE_DIRS})
 
